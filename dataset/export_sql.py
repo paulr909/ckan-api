@@ -6,9 +6,9 @@ import csv
 from decouple import config
 from time import gmtime, strftime
 
-SERVER = "tcp:sqlserver.ckan.lccc.internal"
+SERVER = "tcp:sqlserver.ckan.company_name.internal"
 DATABASE = "ckan"
-USER = "lccckan"
+USER = "company_name_ckan"
 PASSWORD = config("PASSWORD")
 
 
